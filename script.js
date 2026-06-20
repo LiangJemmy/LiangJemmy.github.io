@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const footer = document.getElementById('footerYear');
     if (footer) {
         const currentYear = new Date().getFullYear();
-        footer.innerHTML = `© ${currentYear} 梁嘉铭 · 保持热爱，持续编码`;
+        footer.innerHTML = `© ${currentYear} 梁嘉铭 · 保持热爱`;
     }
 
     // ===== 点击邮箱/GitHub链接时的控制台提示 =====
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (githubLink) {
         githubLink.addEventListener('click', function (e) {
-            console.log('🐙 正在跳转到 GitHub 主页：github.com/liangjiaming');
+            console.log('🐙 正在跳转到 GitHub 主页：github.com/LiangJemmy');
         });
     }
 
